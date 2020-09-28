@@ -1,6 +1,16 @@
 body {
 	background-color: #dce9f2;
 	min-height: 800px;
+	position: relative:
+}
+.affix {
+	    top:0;
+	    width: 100%;
+	    z-index: 199 !important;
+}
+.affix ~ .container-fluid {
+	   position: relative;
+	   top: 50px;
 }
 #logo-img {
 	background: url('../images/logo.jfif') no-repeat;
@@ -13,7 +23,6 @@ body {
 }
 #myNav {
 	border: 0px;
-	box-shadow: 0px 0px 50px #333; 
 }
 #myNav .container-fluid {
 	background-color: #1c8dd9;
@@ -57,6 +66,7 @@ body {
 .jumbotron {
 	background-color: #1c8dd9;
 	box-shadow: 0px 0px 20px #222;
+	margin-bottom: 0px;
 }
 .jumbotron h1 {
 	font-family: 'Shrikhand', cursive;
