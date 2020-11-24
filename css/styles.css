@@ -68,21 +68,32 @@ body {
 	box-shadow: 0px 0px 20px #222;
 	margin-bottom: 0px;
 }
+.jumbotron .row {
+	margin: 0px 10%;
+}
+.jumbotron .row img {
+	width: 100%;
+	margin-top: 10px;
+}
 .jumbotron h1 {
-	font-family: 'Shrikhand', cursive;
-	font-size: 4.2vw;
+	font-family: 'Courgette', cursive;
+	font-size: 3vw;
 	text-transform: uppercase;
+	font-weight: bolder;
 	color: red;
-	margin-top: 70px;
+	float: left;
+	margin: 60px 20px 10px;
 	text-shadow: 1px 2px 5px white;
-	margin-bottom: 0;
 }
 .jumbotron p {
+
 	margin-bottom: 60px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 5px white;
-	font-size: 1.6em;
+	font-size: 1.5vw;
 	letter-spacing: 2px;
+	float: left;
+	margin-left: 20px;
 	font: sans-serif;
 	color: #fff;
 	font-weight: bold;
