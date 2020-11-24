@@ -13,10 +13,10 @@ body {
 	   top: 50px;
 }
 #logo-img {
-	background: url('../images/logosch.jpeg') no-repeat;
-	height: 113px;
+	background: url('../images/logo.jfif') no-repeat;
+	height: 65px;
 	width: 150px;
-	margin: -20px 0px 0px 0px;
+	margin: -10px 0px 0px 0px;
 	background-position: center;
 	border-radius: 25px;
 	box-shadow: 0px 0px 20px #222;
